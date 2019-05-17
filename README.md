@@ -10,4 +10,5 @@ The defined class, BinaryMassFunction, contains the following methods:
               given value of reduced mass function.
   3) calc_S - calculates the modified mass function for a list of given
               list of reduced mass function values.
+      
   A complete description appears in the header of each method.
