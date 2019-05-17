@@ -1,7 +1,7 @@
 # BinaryMassFunction
 
 The modified mass function was introduced by Shahaf, Mazeh and Faigler (2017, MNRAS). It's main advantage 
-is that its distribution it mimics the shape of the mass-ratio distribution for samples of single-lined spectroscopic binaries.
+is that its distribution mimics the shape of the mass-ratio distribution for samples of single-lined spectroscopic binaries.
 
 The defined class, BinaryMassFunction, contains the following methods:
   1) calc_y - calculates the modified mass function given the binary
