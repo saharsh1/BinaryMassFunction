@@ -8,7 +8,7 @@
 # distribution for samples of single-lined spectroscopic binaries.
 #
 # The defined class, BinaryMassFunction, contains the following methods:
-#  1) calc_y - calculates the modified mass function given the binary
+#  1) calc_y - calculates the reduced mass function given the binary
 #              orbital parameters.
 #  2) calc_q_minimum - calculates the minimal mass-ratio possible for a
 #              given value of reduced mass function.
