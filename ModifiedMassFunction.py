@@ -20,15 +20,15 @@
 #  Examples:
 #    1)  Calculate the reduced mass function for three binaries with given P
 #        and K, assuming a circular orbit and 1 Msun primary:
-#        Y = ModifiedMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
+#        Y = BinaryMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
 #        print(Y.y)
 #
 #    2)  Calculate the q minimum for a given array of reduced mass function:
-#        Y = ModifiedMassFunction(y=[0.1, 0.001, 0.25]).calc_q_minimum()
+#        Y = BinaryMassFunction(y=[0.1, 0.001, 0.25]).calc_q_minimum()
 #        print(Y.qmin)
 #
 #    3)  Calculate the modified mass function for an array of y:
-#        Y = ModifiedMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
+#        Y = BinaryMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
 #        Y.calc_S()
 #        print(Y.S)
 #
@@ -112,7 +112,7 @@ class BinaryMassFunction:
                             contains the calculated q minimum.
 
         Example:
-        Y = ModifiedMassFunction(y=[0.1, 0.15, 0.2, 0.25]).calc_q_minimum()
+        Y = BinaryMassFunction(y=[0.1, 0.15, 0.2, 0.25]).calc_q_minimum()
         print(Y.qmin)
         '''
         y = self.y
@@ -139,7 +139,7 @@ class BinaryMassFunction:
                          and NaN is returned.
 
         Example:
-        Y = ModifiedMassFunction(y=[0.1, 0.15, 0.2, 0.25]).calc_S()
+        Y = BinaryMassFunction(y=[0.1, 0.15, 0.2, 0.25]).calc_S()
         print(Y.S)
         '''
 
