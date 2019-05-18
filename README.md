@@ -15,14 +15,11 @@ Contains the BinaryMassFunction class, with the following methods:
 These methods can be used to calculate the modified mass function for a sample of single-lined binaries. 
 
 ### Example:
-- Calculate the reduced mass function for three binaries with given P and K, assuming e=0 and M1=1:
+- Calculate the reduced mass function for three binaries with given P and K, assuming e=0 and M1=1, and calculate the modified mass function
 ```python
 from ModifiedMassFunction import BinaryMassFunction
-Y = BinaryMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
-```
-- Calculate the corresponding modified mass function
-```python
-Y.calc_S()
+data = BinaryMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
+data.calc_S()
 ```
 
 ## Sdistribution.py
