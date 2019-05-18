@@ -25,10 +25,10 @@ data.calc_S()
 ## Sdistribution.py
 The purpose of this routine is to demonstate the distribution of the modified mass function. Detailed calculation may require some modification to the integration tolerance and grid density.
 
-* Example: Plot the modified mass function distribution of a linearly increasing mass-ratio distribution
+* Example: Plot the modified mass function distribution of a linearly increasing (not normalized) mass-ratio distribution. 
 ```python
 import Sdistribution as SD
-MRD = lambda x: 2*x
+MRD = lambda x: x
 fS, S = SD.calc_fS(MRD, PlotFlag=True)
 ```
 ![Probability density example](ProbabilityDensityExample.png)
