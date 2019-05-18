@@ -14,8 +14,8 @@ Contains the BinaryMassFunction class, with the following methods:
 
 These methods can be used to calculate the modified mass function for a sample of single-lined binaries. 
 
-### Example:
-- Calculate the reduced mass function for three binaries with given P and K, assuming e=0 and M1=1, and calculate the modified mass function
+* Example:
+Calculate the reduced mass function for three binaries with given P and K, assuming e=0 and M1=1, and calculate the modified mass function
 ```python
 from ModifiedMassFunction import BinaryMassFunction
 data = BinaryMassFunction().calc_y(P=[10.,12.,1.17], K=[0.5, 1.17, 2.])
@@ -25,9 +25,10 @@ data.calc_S()
 ## Sdistribution.py
 The purpose of this routine is to demonstate the distribution of the modified mass function. Detailed calculation may require some modification to the integration tolerance and grid density.
 
-### Example:
+* Example: Plot the modified mass function distribution of a linearly increasing mass-ratio distribution
 ```python
 import Sdistribution as SD
-MRD = lambda x: x
+MRD = lambda x: 2*x
 fS, S = SD.calc_fS(MRD, PlotFlag=True)
 ```
+![Probability density example](ProbabilityDensityExample.png)
