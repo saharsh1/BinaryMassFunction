@@ -1,5 +1,5 @@
 # BinaryMassFunction
->The modified mass function was introduced by Shahaf, Mazeh and Faigler (2017, MNRAS). It's main advantage 
+The modified mass function was introduced by [Shahaf, Mazeh and Faigler (2017)](https://ui.adsabs.harvard.edu/abs/2017MNRAS.472.4497S/abstract). It's main advantage 
 is that its distribution mimics the shape of the mass-ratio distribution for samples of single-lined spectroscopic binaries.
 
 ## ModifiedMassFunction.py
