@@ -23,7 +23,7 @@ data.calc_S()
 ```
 
 ## Sdistribution.py
-The purpose of this routine is to demonstate the distribution of the modified mass function. Detailed calculation may require some modification to the integration tolerance and grid density.
+The purpose of this routine is to demonstate the distribution of the modified mass function, fS. Detailed calculation may require some modification to the integration tolerance and grid density. In order for the fS distribution to be normalized so must be the input mass-ratio distribution. 
 
 * Example: Plot the modified mass function distribution of a linearly increasing (not normalized) mass-ratio distribution. 
 ```python
